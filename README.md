@@ -2,7 +2,7 @@
 
 ### Description
 
-This is an individual assignment accomplished by student cas022113 GuangJian Chen to  release a Request for Quotation for The ACME Corporation. The ACME Corporation tend to develop a marketplace web app with Rails. As an aspiring junior dev I need to produce a qualified **Rfq**.
+This is an individual assignment accomplished by student cas022113 Ben Chen to  release a Request for Quotation for The ACME Corporation. The ACME Corporation tend to develop a marketplace web app with Rails. As an aspiring junior dev I need to produce a qualified **Rfq**.
 
 
 ### Questions
