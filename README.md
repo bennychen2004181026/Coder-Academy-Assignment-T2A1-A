@@ -74,7 +74,7 @@ Models are an significant kernel of target business which represent business dom
 
 - Views
 
-  Views are accountable for informing  with Rails about the content of the HTML which is related to the request and the HTML will be send to the broswer to be displayed. Still, views rely on the data return by corresponding controller and action. Also a layout which is part of HTML markup is needed and the views content will sit inside the layout accordingly. 
+  Views are accountable for informing  with Rails about the content of the HTML which is related to the request and the HTML will be send to the browser to be displayed. Still, views rely on the data return by corresponding controller and action. Also a layout which is part of HTML markup is needed and the views content will sit inside the layout accordingly. 
 
 - Assets
   Normally, assets are JavaScript, CSS code and any other media file such as audio, image, etc. Assets are accompany view content in a layout and all being sent to the browser.
@@ -87,14 +87,14 @@ Models are an significant kernel of target business which represent business dom
 
 DBMS is the database program that  employs methods of indexing, hoarding, retrieving, and running queries on data. It offers a user interface to manager and modified the data with its database engine and schema. It also allows other program to manager data with help from DBMS.
 
-Base on different standards, DBMS are categorized into relational, distributed, hierarchical, object-oriented, and network type. And MySQL is one of relational database management systems (RDBMS). It has the following pros and cons:
+Base on different standards, DBMS are categorized into relational, distributed, hierarchical, object-oriented, and network type. And MySQL is one of `relational database management systems` `(RDBMS)`. It has the following pros and cons:
 
 Pros
 
 1. Practicability
 Among many choices of relational database, some higher end products like Sql Server and Oracle are complicated and of industry level and requires professional training to operate with. Some lower end products such as light weight or embeddable database like SQLite are running with little to no integration or configuration overhead. 
 &nbsp;
-MySQL balances both side. It has rich features and ease of use at the same time. It’s been tested with a wide range of different compilers and working on numerous platforms like Oracle Linux, Canonical and Various Linux.For ease of use, you can use command line to deal with most of the tasks. The utility mysqldump is useful and not difficult to implement with when you try to import and export data. Due to the simply and compact architecture of the database in MySQL, you don’t need to spend massive of time to learn how to use it with command line.Clients are provided for almost all programming languages.
+MySQL balances both side. It has rich features and ease of use at the same time. It’s been tested with a wide range of different compilers and working on numerous platforms like Oracle Linux, Canonical and Various Linux.For ease of use, you can use command line to deal with most of the tasks. The utility mysql dump is useful and not difficult to implement with when you try to import and export data. Due to the simply and compact architecture of the database in MySQL, you don’t need to spend massive of time to learn how to use it with command line.Clients are provided for almost all programming languages.
 &nbsp;
 2. Open source 
 MySql is free to use and you can tailor its source code to meet your needs. It can reduce some cost on implementing your projects.
@@ -275,7 +275,7 @@ After successfully past the test, then we can start next iteration of TDD with n
 
 ---
 
-> **Q6.	Discuss and analyse requirements related to information system security and how they relate to the project.**
+> **Q6.	Discuss and analyze requirements related to information system security and how they relate to the project.**
 
 ---
 
@@ -531,7 +531,7 @@ Similar to session in Rails , localStorage is a method that assist JavaScript w
 
 Client-Side Scripting Frameworks
 . D3.js
-D3.js is a Visualisation JavaScript library for documents manipulation in accordance with data.
+D3.js is a Visualization JavaScript library for documents manipulation in accordance with data.
 
 Web Stats
 . Google Webmaster Tools
@@ -571,17 +571,17 @@ subgraph Domain_name
         DNS_server
  end
  DNS_server-->Browser
-Browser-->Poxy_Server
+Browser-->Proxy_Server
 
  subgraph Application
-        Poxy_Server-->Router
-        Router-->Load_balanceer
-        Load_balanceer-->Web_server
+        Proxy_Server-->Router
+        Router-->Load_balancer
+        Load_balancer-->Web_server
         Web_server-->Application_server
  end
- Application_server-->Dtabase_server
+ Application_server-->Database_server
  subgraph Data server
-        Dtabase_server
+        Database_server
  end
 
 
